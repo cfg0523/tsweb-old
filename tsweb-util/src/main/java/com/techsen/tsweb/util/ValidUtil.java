@@ -18,6 +18,13 @@ public class ValidUtil {
     }
 
     /**
+     * 判断数组的有效性
+     */
+    public static <T> boolean isValid(T[] arr) {
+        return arr != null && arr.length > 0;
+    }
+    
+    /**
      * 判断集合的有效性
      */
     public static <E> boolean isValid(Collection<E> coll) {

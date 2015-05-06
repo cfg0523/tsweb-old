@@ -12,6 +12,7 @@
 	<modules>
 		<module>tsweb-util</module>
 		<module>tsweb-web</module>
+		<module>tsweb-entity</module>
 	</modules>
 
 	<properties>
