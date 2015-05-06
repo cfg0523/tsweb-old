@@ -20,7 +20,7 @@ public class Log4jUtil {
     /**
      * 根据Class对象获取Logger
      */
-    public static Logger getLogger(Class<?> clazz) {
+    public static <T> Logger getLogger(Class<T> clazz) {
         return Logger.getLogger(clazz);
     }
 }
