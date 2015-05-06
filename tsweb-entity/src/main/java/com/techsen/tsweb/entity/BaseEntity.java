@@ -3,6 +3,7 @@
  */
 package com.techsen.tsweb.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import com.techsen.tsweb.util.ObjectUtil;
@@ -10,7 +11,8 @@ import com.techsen.tsweb.util.ObjectUtil;
 /**
  * 实体基类
  */
-public abstract class BaseEntity {
+@SuppressWarnings("serial")
+public abstract class BaseEntity implements Serializable {
 
     /**
      * 主键id
