@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>com.techsen.tsweb</groupId>
 		<artifactId>tsweb</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>${tsweb.version}</version>
 	</parent>
 	<artifactId>tsweb-util</artifactId>
 	<packaging>jar</packaging>

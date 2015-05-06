@@ -6,15 +6,20 @@
 	<parent>
 		<groupId>com.techsen.tsweb</groupId>
 		<artifactId>tsweb</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>${tsweb.version}</version>
 	</parent>
 	<artifactId>tsweb-web</artifactId>
 	<packaging>war</packaging>
 
 	<dependencies>
 		<dependency>
+			<groupId>com.techsen.tsweb</groupId>
+			<artifactId>tsweb-util</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
